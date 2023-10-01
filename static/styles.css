@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00133d;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+ol {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.deadline {
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    margin-top: 30px;
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+
+#bulletin-logo {
+    height: 50px;
+    transition: all 0.5s;
+}
+
+#bulletin-logo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
